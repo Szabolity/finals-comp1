@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comp1 Finals</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="images/logo.png" alt="Logo" class="logo">
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#description">Description</a></li>
+                <li><a href="#gallery-section">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="full-page-bg">
+            <h1>Nature's Canvas: Explore The Nature's Beauty</h1>
+        </section>
+        <section id="description" class="description-section">
+            <div class="description-paragraph" id="paragraph-1">
+                <p class="transition">
+                    Landscapes are nature's canvas, offering breathtaking views and diverse terrains.
+                    Learn more about the <a href="https://www.nationalgeographic.com/environment" target="_blank">beauty of landscapes</a>.
+                </p>
+            </div>
+            <div class="description-paragraph" id="paragraph-2">
+                <p class="transition">
+                    Capturing the essence of landscapes requires skill and artistry. Explore
+                    <a href="https://www.photographytalk.com/landscape-photography-tips" target="_blank">landscape photography techniques</a>.
+                </p>
+            </div>
+        </section>
+        <section id="gallery-section">
+            <div id="gallery">
+                <figure>
+                    <img src="images/mountain.jpg" alt="Mountain View">
+                    <figcaption>Mountain View</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/forest.jpg" alt="Lush Forest">
+                    <figcaption>Lush Forest</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/desert.jpg" alt="Vast Desert">
+                    <figcaption>Vast Desert</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/beach.jpg" alt="Sunny Beach">
+                    <figcaption>Sunny Beach</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/waterfall.jpg" alt="Cascading Waterfall">
+                    <figcaption>Cascading Waterfall</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/hills.jpg" alt="Rolling Hills">
+                    <figcaption>Rolling Hills</figcaption>
+                </figure>
+            </div>
+            <button id="toggle-button">Hide Gallery</button>
+        </section>
+        <section class="video-section">
+            <video controls class="full-width-video">
+                <source src="videos/landscape.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
